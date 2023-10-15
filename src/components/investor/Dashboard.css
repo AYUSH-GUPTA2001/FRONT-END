@@ -1,0 +1,261 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the overall layout */
+  .investorDashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Style the sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    color: rgb(9, 1, 1);
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  .sidebar .sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust the margin as needed for spacing between items */
+  }
+  
+  .sidebar .sidebar-item i {
+    margin-right: 10px; /* Adjust the margin as needed for spacing between icon and text */
+  }
+  
+  .sidebar li {
+    
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #27005d;
+font-family: "Poppins-Regular", Helvetica;
+font-size: 15px;
+font-weight: 400;
+left: 0;
+letter-spacing: 0;
+line-height: 2.5em;
+
+  }
+  
+  /* .sidebar li:hover {
+    text-decoration: underline;
+  } */
+  
+  /* Style the content */
+  .content {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 5px 0px 15px #00000040;
+    background-color: #b7d9ff;
+  }
+  
+  .content h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Add additional styles as needed for specific content sections */
+  /* Add these styles to your existing CSS file */
+.portfolio{
+  background-color: #b7d9ff;
+}
+/* Styles for the portfolio container */
+.portfolio-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #b7d9ff;
+}
+
+/* Styles for the rounded divs */
+.rounded-div {
+  width: calc(33.33% - 10px); /* 33.33% width with spacing in between */
+  height: 80px; /* Adjust the height as needed */
+  background-color: #fff;
+  border-radius: 10px; /* Rounded shape */
+}
+
+/* Style for the rectangle div */
+.rectangle-div {
+  margin-top: 20px;
+   /* Same height as the rounded divs */
+  background-color: #fff;
+ 
+border-radius: 10px;
+box-shadow: 0px -5px 15px #cecaca26;
+
+}
+/* Add this CSS to your existing styles.css or App.css file */
+
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.user-info span {
+  margin-left: 5px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown ul li:hover {
+  background-color: #f0f0f0;
+}
+#logo{
+  color: #27005d;
+  margin-left: 3%;
+ 
+}
+#holdings{
+  color: #27005d;
+font-family: "Poppins-SemiBold", Helvetica;
+font-size: 58px;
+font-weight: 600;
+padding-top: 20px;
+padding-left: 20px;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+#leftcontainer{
+  background-color: #e4f1ff;
+border-radius: 25px;
+width: 641px;
+height: 81px;
+margin-left: 10px;
+margin-top: 15px
+}
+
+
+.container1{
+  display: flex;
+}
+
+.bordered-text {
+  
+  padding: 15px; /* Add some padding to space out the text */
+  color:#fff;
+   /* Background color for the bordered text */
+   background-color: #27005d;;
+   margin: 4px;
+    border-radius: 25px;
+
+
+}
+
+.border {
+  display: inline-block;
+  width: 2px; /* Width of the border */
+  height: 20px; /* Height of the border (adjust as needed) */
+  background-color: rgb(76, 3, 90); /* Border color */
+  margin: 0 5px; /* Margin to space out the borders */
+}
+.Investmentcontainer {
+  text-align: center; /* Center the images horizontally */
+  display: flex;
+  flex-direction: row; /* Center the images vertically */
+  justify-content: center;
+  align-items: center;
+}
+.investmentbox {
+  /* width: 100px; /* Set a width for the divs if needed */
+  /* height: 100px; Set a height for the divs if needed */
+  /* background-color: #e4f1ff; */
+/* border-radius: 25px; */
+/* box-shadow: 0px -5px 10px #0000001a;  */ 
+/* Add background color for visibility */
+  /* padding: 60px;
+  margin-right: 0px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom: 10px;  */
+  /* Add margin to space out the divs */
+  max-width: 100%; /* Ensure the images don't exceed the container's width */
+  height: auto; /* Maintain the aspect ratio of the images */
+  /* You can add additional styling or margin as needed */
+  margin-left: 40px;
+    border-radius: 30px;
+    margin-right: 42px;
+}
+.rectangle-div-investment {
+  margin-top: 60px;
+    width: 850px;
+    height: 450px; /* Same height as the rounded divs */
+  background-color: #fff;
+  background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0px -5px 15px #cecaca26;
+display: block;
+  justify-content: center; /* Horizontally center the inner container */
+  align-items: center;
+
+}
+
+.InvestmentContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  display: flex; /* Use flexbox to create a row */
+  justify-content: space-between; /* Space evenly between buttons */
+  width: inherit; /* Set a fixed width for the container or adjust as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.my-button {
+  width: 250px;
+  padding: 10px 20px; /* Add padding to the buttons */
+  background-color: #0074d9; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Add pointer cursor on hover */
+  margin-left: 40px;
+  border-radius: 30px;
+  margin-right: 70px;
+}

@@ -1,0 +1,165 @@
+/* body{
+    background-color: #E4f1ff;
+}
+
+h1{
+    color: #27005d;
+    margin-left: 2%;
+}
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #27005d;
+    margin-top: 0%;
+   margin-right: 10%;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #27005d;
+    margin-right: 10%;
+ 
+}
+img{
+
+    width: 100px;
+
+}
+
+.abc{
+    width: 500px;
+}
+.container{
+ 
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+    background-color: #27005d
+    ;
+
+}
+
+.side-container1{
+    height: 200px;
+    width: 200px;
+    background-color: #27005d;
+    margin-left: 80%;
+    margin-top: 0%;
+} */
+
+/* img{
+   margin-left: 30%;
+    height: 400px;
+    width: 400px;
+} */
+
+#logo{
+    color: #27005d;
+    margin-left: 3%;
+   
+}
+
+#quote{
+    color: #27005d;
+    margin-left: 16%;
+   
+
+}
+
+
+
+body{
+    background-color: #E4f1ff;
+}
+
+#quote2{
+   color: #27005d;
+   margin-left: 14%;
+
+}
+
+
+.main-container{
+    display: flex;
+    height: 100vh;
+
+
+}
+
+.box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blue-div {
+    width: 300px;
+    height: 200px;
+    background-color: #27005d;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 34px;
+    padding-bottom: 7%;
+}
+
+.image1 {
+    margin-left: 18%;
+    height: 400px;
+    width: 400px;
+   
+  }
+
+  .image2 {
+    width: 200px;
+    height: 194px;
+    padding-inline:55px ;
+    /* border: 2px solid blue; */
+  }
+
+  .image3 {
+    width: 150px;
+    height: 150px;
+    padding-inline: 72px;
+    padding-top: 6%;
+    /* border: 2px solid rgb(195, 255, 0); */
+  }
+  button.investor{
+    color: #27005D;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background:#E4F1FF ;
+    margin-top: 8%;
+    margin-left: 25%;
+
+  }
+
+  button:active{
+    transform: scale(0.96);
+  }
+
+  button.advisor{
+    color: #27005D;
+    padding: 8px 18px;
+    border-radius: 20px;
+    background:#E4F1FF ;
+    margin-top: 0%;
+    margin-left: 26%;
+
+  }
+
+  .image4{
+    width: 10px;
+    height: 10px;
+
+  }
